@@ -1,0 +1,9 @@
+.ovalado {
+    width: 100px; 
+    height: 20px; 
+    border-radius: 25%/100%;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 20px; 
+    font-size: 12px; 
+  }
