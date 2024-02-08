@@ -26,13 +26,9 @@ export const MovieRecommendation = () => {
     
     });
 
-    if (movieRecommendation.isLoading) {
-        return <Spinner />;
-    }   
+    if (movieRecommendation.isLoading) return <Spinner />;
     
-    if (movieRecommendation.error) {
-        return <SpinnerEmpty />;
-    }
+    if (movieRecommendation.error) return <SpinnerEmpty />;
 
     return (             
         <>          
