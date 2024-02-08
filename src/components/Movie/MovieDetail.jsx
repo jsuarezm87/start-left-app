@@ -5,8 +5,6 @@ import { getMovieDetail } from '../../helpers/getMovieDetail';
 import { getMovieCredit } from '../../helpers/getMovieCredit';
 import { SpinnerEmpty } from '../spinner/SpinnerEmpty';
 import { Spinner } from '../spinner/Spinner';
-import { Fragment } from 'react';
-import Ovalado from './Ovalado';
 import { MovieDetailCard } from './MovieDetailCard';
 
 
