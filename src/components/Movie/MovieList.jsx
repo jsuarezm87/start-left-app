@@ -33,14 +33,9 @@ export const MovieList = () => {
   const moviesTop = movieList?.slice(0, 5);
   const moreMovies = movieList?.slice(5);
 
-
-  if (movies.isLoading) {
-    return <Spinner />;
-  }
-
-  if (movies.error) {
-    return <SpinnerEmpty />;
-  }
+  if (movies.isLoading) return <Spinner />;
+  
+  if (movies.error) return <SpinnerEmpty />;
 
   return (
     <>
